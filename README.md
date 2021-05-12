@@ -9,7 +9,17 @@ Two main approaches were adopted:
   3. The spreads with S&P500 itself (CCI/^GSPC and SBAC/^GSPC) (denoted by **ETF**)
 * Modifing the LSTM algorithm
   1. Multi-layer LSTM with the activation function "tanh" (denoted by **LSTM 1**)
-  2. Multi-layer LSTM with the activation function "relu" (denoted by **LSTM 2**)
-  3. Bidirectional multi-layer LSTM with the activation function "relu" (denoted by **LSTM 3**)
+      
+      <img src="https://github.com/quincyho/Pairs-Trading-With-LSTM/blob/main/Images/LSTM%201.PNG" width="200">
+  3. Multi-layer LSTM with the activation function "relu" (denoted by **LSTM 2**)
+      
+      <img src="https://github.com/quincyho/Pairs-Trading-With-LSTM/blob/main/Images/LSTM%202.PNG" width="200">
+  5. Bidirectional multi-layer LSTM with the activation function "relu" (denoted by **LSTM 3**)
+  
+      <img src="https://github.com/quincyho/Pairs-Trading-With-LSTM/blob/main/Images/LSTM%203.PNG" width="200">
   
 *(Denotations for later expression convenience)*
+
+The following table summarizes the input and LSTM configurations in each json file:
+
+<img src="https://github.com/quincyho/Pairs-Trading-With-LSTM/blob/main/Images/Json%20reference.JPG" width="400">
