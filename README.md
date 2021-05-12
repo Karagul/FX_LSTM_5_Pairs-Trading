@@ -2,7 +2,7 @@
 
 The aim of this project is to optimize the profit by trading the volatility of the spread of two co-integrated stocks, CCI and SBAC from S&P500, using LSTM prediction with normalized window.
 
-Two main approaches were adopted:
+Two main approaches were used:
 * Adding the volatilities of other spreads as additional inputs
   1. The spreads with a third co-integrated stock AMT (CCI/AMT and SBAC/AMT) (denoted by **AMT**)
   2. The spreads of other co-integrated stocks from S&P500 (UNH/CNC and UNH/CI) (denoted by **OS**)
