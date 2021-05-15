@@ -28,7 +28,7 @@ The 2-days ahead long-only strategy is adopted to produce trading signals, i.e. 
 
 After experimenting with different configurations, adding only the spreads other co-integrated stocks (**OS**) as additional inputs and using an unidirectional LSTM with the "relu" activation function (**LSTM 2**), i.e. config_9.json, produces the best result.
 
-We got a compound annual growth rate (CAGR) of 581.7% and a Sharpe ratio of 1.0, comparing to the market CAGR of -23.2% and the market Sharpe ratio of -0.1.
+A compound annual growth rate (CAGR) of 581.7% and a Sharpe ratio of 1.0 were achieved with our trading signal, comparing to the market CAGR of -23.2% and the market Sharpe ratio of -0.1.
 
 <img src="https://github.com/quincyho/Pairs-Trading-With-LSTM/blob/main/Images/CAGR%20and%20Sharpe.JPG" width="200">
 
